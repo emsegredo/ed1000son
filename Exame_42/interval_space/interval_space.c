@@ -6,7 +6,7 @@ int main(int ac, char **av)
 
     if (ac == 2 && av[1][i] != '\0') //A parte "!= '\0'" é opcional...
     {
-        while (av[1][i + 1]) //Aqui verifica o espaço vazio em uma casas na frente por causa do "i + 1"
+        while (av[1][i + 1]) //Aqui verifica o espaço vazio uma casa na frente por causa do "i + 1"
         {
             write(1, &av[1][i], 1);
             write(1, "   ", 3); //imprimir extamente os 3 espaços
