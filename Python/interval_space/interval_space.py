@@ -4,6 +4,5 @@ while i <= (len(nome)-1):
     print(nome[i], end="")
     i += 1
     if i > (len(nome)-1):
-        print("$")
         break
     print("   ", end="")
